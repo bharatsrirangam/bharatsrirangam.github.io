@@ -8,7 +8,7 @@ import java.math.BigInteger;
 
 public class EProblem3 {
     public static void main(String[] args) {
-        BigInteger num = new BigInteger("600851475143");
+        BigInteger num = new BigInteger(args[0]);
         System.out.println(solution(num));
     }
 
@@ -23,12 +23,15 @@ public class EProblem3 {
         while (!num.equals(new BigInteger("1"))) {
             if (num.mod(interval).equals(new BigInteger("0"))) {
                 largestPrimeNumber = interval;
+                System.out.print( "\n"+interval + " ");
             }
             while (num.mod(interval).equals(new BigInteger("0"))) {
                 num = num.divide(interval);
+                System.out.print("|");
             }
             interval = interval.add(new BigInteger("1"));
         }
+        System.out.println("\n======================");
         return largestPrimeNumber;
     }
 }
