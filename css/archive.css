@@ -1,0 +1,40 @@
+#headTitle {
+	padding: 2% 0 2% 0;
+	background: rgb(44, 44, 44);
+	margin: 0 0 3% 0 ;
+	color: rgb(234,236,239);
+}
+
+.lists {
+	color: rgb(234,236,239);
+}
+
+li.comingsoon {
+	color: #777777;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0 0 5% 0;
+}
+
+.hiding {
+	display: none;
+}
+
+.showing {
+
+}
+
+a, a:link, a:visited {
+   color:#c5c6c7;
+}
+
+#mainBody {
+	color:rgb(234,236,239);
+}
+
+div.jumbo {
+	background-color: #d9dbde;
+	box-shadow: 0px 4px 2px #777777;
+}
