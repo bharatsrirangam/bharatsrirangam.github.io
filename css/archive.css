@@ -30,6 +30,10 @@ a, a:link, a:visited {
    color:#c5c6c7;
 }
 
+a.internal {
+	color:#2D8CEB;
+}
+
 #mainBody {
 	color:rgb(234,236,239);
 }

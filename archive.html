@@ -1,8 +1,3 @@
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,7 +6,7 @@ and open the template in the editor.
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-        <link rel="shortcut icon" type="image/x-icon" href="pics/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
 
     </head>
@@ -28,6 +23,7 @@ and open the template in the editor.
             <ul id="PersonalProjects">
                 <li><h1>Personal Projects</h1></li>
                 <li id="projectEulerInfo"><a href="#">Project Euler</a></li>
+                <li id="neuralNetworkInfo"><a href="#">Neural Network HyperPlanes</a></li>
 		<li id="courseTreeInfo"><a href="#">CourseTree</a></li>
             </ul>	
         </div>
@@ -36,7 +32,6 @@ and open the template in the editor.
                 <li><h1>Course Projects</h1></li>
                 <li id="boRatsIncInfo"><a href="#">boRats.Inc</a></li>
                 <li id="civilizationInfo"><a href="#">1331 Civilization IV</a></li>
-                <li class="comingsoon">Bottom Up Neural Network</li>
                 <li class="comingsoon">Coded Gameboy Game (In C)</li>
             </ul>	
 	</div>
@@ -63,28 +58,33 @@ and open the template in the editor.
 
 	<div id="projectEulerInfoBox"  class="container boxes hiding"><div style="margin:10% 0 10% 0;" class="jumbotron jumbo">
             <h2 style="margin: 0% 0 5% 0">Project Euler</h2>
-            <p>You can click on any of the projects to see a description of that project. Any projects that are greyed out are not yet completed.</p>
+            <p>Project Euler is a series of dedicated computational problems that help develop your computational and mathematical skills. I have completed some of the problems in my free time. You can check out my github <a class="internal" href="https://github.com/bharatsrirangam/ProjectEuler">repository</a> for the problems I have finished. I don't do too much anymore - only in my free time. You can feel free to use any of my solutions.</p>
             <p>If you have any questions or concerns, please contact me at bharatsrirangam@gatech.edu</p>
         </div></div>
 
         <div id="courseTreeInfoBox"  class="container boxes hiding"><div style="margin:10% 0 10% 0;" class="jumbotron jumbo">
             <h2 style="margin: 0% 0 5% 0">CourseTree</h2>
-            <p>CourseTree is a web application that is meant to complement applications such as courseoff.com and Coursicle. It is often difficult for students, especially freshmen, to choose the appropriate courses and which sequential courses to take. CourseTree provides a way for students to conveniently choose and plan for future schedules. I am currently working on this website with a friend, Aiyappa Kodendera. Our contact information and progress can be seen at this link ____.</p>
+            <p>CourseTree is a web application that is meant to complement applications such as courseoff.com and Coursicle. It is often difficult for students, especially freshmen, to choose the appropriate courses and which sequential courses to take. CourseTree provides a way for students to conveniently choose and plan for future schedules. I am currently working on this website with a friend, Aiyappa Kodendera. Our contact information and progress can be seen at this <a class="internal" href="https://github.com/bharatsrirangam/CourseTree/tree/dev"> link </a>. We update the "dev" branch with our code as we go along and push very final versions of code to the master branch. Prototypes stay in the dev branch.</p>
             <p>If you have any questions or concerns, please contact me at bharatsrirangam@gatech.edu</p>
         </div></div>
 
         <div id="boRatsIncInfoBox"  class="container boxes hiding"><div style="margin:10% 0 10% 0;" class="jumbotron jumbo">
             <h2 style="margin: 0% 0 5% 0">boRats.Inc</h2>
-            <p>You can click on any of the projects to see a description of that project. Any projects that are greyed out are not yet completed.</p>
+            <p>BoRats.Inc is a mobile android application that keeps track of rat sightings throughout New York City. This java app was made in our CS2340 class which aims at giving us experience with approaches to software development in the industry. I was elected Team Leader and assigned work appropriately. I held us accountable to achieve every milestone in time. We developed the application in Java using Android Studio. I implemented Google’s Firebase for multiuser backend capability and tested many of the methods with JUnit classes for quality and functionality. This project was also developed using Agile Principles and Values/Scrum. You can check out the code on our <a class="internal" href="https://github.com/bharatsrirangam/boRats.Inc">repository</a>. Feel free to follow the README.md to see the application for yourself and to reference all the group members.</p>
             <p>If you have any questions or concerns, please contact me at bharatsrirangam@gatech.edu</p>
         </div></div>
 
         <div id="civilizationInfoBox"  class="container boxes hiding"><div style="margin:10% 0 10% 0;" class="jumbotron jumbo">
             <h2 style="margin: 0% 0 5% 0">1331 Civilization IV</h2>
-            <p>We created and coded a version of Civilization - a turn based strategy game that was the focus of our homework in our CS 1331 Object Oriented Programming Class. We were responsible for creating a majority of the Classes and functionality of the game – including the UI. </p>
+            <p>We created and coded a version of Civilization - a turn based strategy game that was the focus of our homework in our CS 1331 Object Oriented Programming Class. We were responsible for creating a majority of the Classes and functionality of the game – including the UI. Our goal was to get use to the ideas and fundamentals of Java - encapsulation, abstraction, inheritance, and polymorphism. You can checkout the compiled code for the game at this <a class="internal" href="https://github.com/bharatsrirangam/CS1331Civilization">repository</a>. Due to honor code violations, I will not be able to post the source code. If you wish to see this code please contact me personal through my email below.</p>
             <p>If you have any questions or concerns, you can contact me at bharatsrirangam@gatech.edu</p>
         </div></div>
 
+        <div id="neuralNetworkInfoBox"  class="container boxes hiding"><div style="margin:10% 0 10% 0;" class="jumbotron jumbo">
+            <h2 style="margin: 0% 0 5% 0">Neural Network HyperPlanes</h2>
+            <p>I took an Introduction to Artificial Intelligence course the first semester of my sophomore year and in order to get some practice with Neural Networks, I wrote my own hyperplane generation neural net. My program runs a series of randomly generated points to create two sets of points that are linearly separable and then returns the equation to a plane that separates the two sets. This is done with the single perceptron algorithm. You can see the code and run the code from this <a class="internal" href="https://github.com/bharatsrirangam/NeuralNetworksExperimentation">repository</a>. Feel free to use the code as you see fit.</p>
+            <p>If you have any questions or concerns, you can contact me at bharatsrirangam@gatech.edu</p>
+        </div></div>
 
 
 
