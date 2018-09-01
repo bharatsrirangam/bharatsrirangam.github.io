@@ -4,8 +4,9 @@ var projectEuler = document.getElementById("projectEulerInfo");
 var boRats = document.getElementById("boRatsIncInfo");
 var civilization = document.getElementById("civilizationInfo");
 var neuralNetwork = document.getElementById("neuralNetworkInfo");
+var einsteins = document.getElementById("einsteinsInfo");
 
-var array = [courseTree, medicheck, projectEuler, boRats, civilization, neuralNetwork];
+var array = [courseTree, medicheck, projectEuler, boRats, civilization, neuralNetwork, einsteins];
 
 //As More project descriptions are added to the html page, add them here above in the list and in the array.
 

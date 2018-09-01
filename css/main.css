@@ -294,6 +294,10 @@ header {
     -o-background-size: cover;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .header-info {
     position: absolute;
     bottom: 0;
